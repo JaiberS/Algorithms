@@ -17,7 +17,7 @@
     -109 <= nums1[i], nums2[j] <= 109
 
  */
- function merge(nums1: number[], m: number, nums2: number[], n: number): void {
+ export function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     if (n == 0) return;
     let k = n + m - 1 as number;
     let i = m - 1 as number;
